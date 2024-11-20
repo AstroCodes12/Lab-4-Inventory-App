@@ -7,10 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+    
+    
 
     
     @IBOutlet weak var GenrePicker: UIPickerView!
+   
     
     @IBOutlet weak var ArtistPicker: UIPickerView!
     
