@@ -1,0 +1,31 @@
+import Foundation
+
+enum Genre {
+    case Rock, Rap, Pop, Indie
+}
+
+struct song {
+    let name: String
+    let artist: String
+    let album: String
+    let genre: Genre
+}
+
+let song1 = song(name: "Motion Sickness", artist: "Phoebe Bridgers", album: "Stranger in the Alps", genre: .Indie)
+let song2 = song(name: "Kyoto", artist: "Phoebe Bridgers", album: "Punisher", genre: .Indie)
+let song3 = song(name: "Through the Wire", artist: "Kanye West", album: "The College Dropout", genre: .Rap)
+let song4 = song(name: "Something", artist: "The Beatles", album: "Abbey Road", genre: .Rock)
+let song5 = song(name: "Alright", artist: "Kendrick Lamar", album: "To Pimp a Butterfly", genre: .Rap)
+let song6 = song(name: "Apocalypse Dreams", artist: "Tame Impala", album: "Lonerism", genre: .Indie)
+let song7 = song(name: "Jigsaw Falling Into Place", artist: "Radiohead", album: "In Rainbows", genre: .Rock)
+let song8 = song(name: "Let It Happen", artist: "Tame Impala", album: "Currents", genre: .Indie)
+let song9 = song(name: "Beat It", artist: "Michael Jackson", album: "Thriller", genre: .Pop)
+let song10 = song(name: "Rock With You", artist: "Michael Jackson", album: "Off the Wall", genre: .Pop)
+let song11 = song(name: "Let Down", artist: "Radiohead", album: "OK Computer", genre: .Rock)
+let song12 = song(name: "All of the Lights", artist: "Kanye West", album: "My Beautiful Dark Twisted Fantasy", genre: .Rap)
+let song13 = song(name: "Eleanor Rigby", artist: "The Beatles", album: "Revolver", genre: .Rock)
+let song14 = song(name: "Locked Out of Heaven", artist: "Bruno Mars", album: "Unorthodox Jukebox", genre: .Pop)
+let song15 = song(name: "That's What I Like", artist: "Bruno Mars", album: "24K Magic", genre: .Pop)
+let song16 = song(name: "Swimming Pools (Drank)", artist: "Kendrick Lamar", album: "good kid, m.A.A.d city", genre: .Rap)
+
+let songList = [song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16]
